@@ -1,0 +1,49 @@
+body{
+  padding:0;
+  margin:0;
+  a{
+    text-decoration: none;
+  }
+}
+
+.tabs{
+  display: flex;
+  justify-content: center;
+  div{
+    width: 80px;
+    text-align:center;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    cursor: pointer;
+  }.active{
+    background-color: #d9d9d9;
+  }
+}
+.tab_bodies{
+  display: flex;
+  justify-content: center;
+  div{
+    display: none;
+    width: 574px;
+    height: 200px;
+    border: 1px solid #000;
+  }.active{
+    display: block;
+  }
+}
+
+button{
+  all: unset;
+  background-color: #ffff;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+  &:active{
+    transform: scale(0.98);
+  }
+}

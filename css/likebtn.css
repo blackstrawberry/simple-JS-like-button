@@ -1,0 +1,25 @@
+main {
+  text-align: center;
+  margin-top: 200px;
+}
+
+main button {
+  display: inline;
+  all: unset;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+main button #heart-icon {
+  color: red;
+}
+
+main :active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+/*# sourceMappingURL=likebtn.css.map */
